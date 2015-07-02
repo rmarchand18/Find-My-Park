@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-    <title>Final Project!</title>
-  </head>
-  <body>
-    <p> Hello World!</p>
-  </body>
+   <head>
+      <title>
+      <title>Final Project!</title>
+        <h1> Find My Park </h1>
+      <link type="text/css" rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <h3> Please insert your location </h3>
+      <form action = "/results" method = "post">
+         Location:
+         <input type="text" name="play_location">
+         <br>
+         <h3> Insert the sport you want to play </h3>
+        Sport:
+      <select name="game_type">
+          <option value="--">--</option>
+          <option value="Basketball">Basketball</option>
+          <option value="Soccer">Soccer</option>
+          <option value="Baseball">Baseball</option>
+        <option value="Hockey">Hockey</option>
+      </select>
+        <p> <input type="submit" value="Submit"></p>
+      </form>
+   </body>
   </head>
 </html>
