@@ -11,4 +11,21 @@ h3{
 
 p{
   text-align: center;
+<<<<<<< HEAD
 }
+=======
+}
+
+body{
+  background-color :White;
+}
+td{
+  border: 1px solid black;
+}
+
+.choice-text{
+  text-align: center;
+  font-weight: bold;
+}
+
+>>>>>>> 5be8d2f5c4ac7bf1a12f1c6596807059c9343fac
