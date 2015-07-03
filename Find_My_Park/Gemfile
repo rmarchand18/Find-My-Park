@@ -4,7 +4,4 @@ gem 'shotgun'
 gem 'pry'
 gem 'sinatra'
 gem 'httparty'
-<<<<<<< HEAD
 
-=======
->>>>>>> 5be8d2f5c4ac7bf1a12f1c6596807059c9343fac
