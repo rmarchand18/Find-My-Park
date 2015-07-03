@@ -11,10 +11,7 @@ class MyApp < Sinatra::Base
   end
   
   post '/results' do 
-    @play_location = params["play_location"]
-    @game_type = params["game_type"]
-
-    @neighborhood = Neighborhood.new(params["play_location"], @game_type)
+    @neighborhood = Neighborhood.new(params["play_location"], params["game_type"])
     @neighborhood.search
     @neighborhood.get_venue_ids
     @locations = @neighborhood.venues

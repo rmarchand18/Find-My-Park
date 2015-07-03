@@ -1,5 +1,6 @@
 h1{
   text-align: center;
+  font-family : Times New Roman;
 }
 
 form{
@@ -8,12 +9,64 @@ form{
 h3{
   text-align: center;
 }
+body{
+  background-color: blue;
+}
+.Submit{
+   border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  
+  outline: 0;
+  padding: 15px 30px;
+  transition: all .1s linear; 
+}
+
+.Submit:active{
+   box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+div.Submit-button{
+  width:100%;
+  margin: 0 auto;
+  text-align:center;
+  margin-top:50px ;
+}
+
+div.back{
+  width:100%;
+  margin: 0 auto;
+  text-align:center;
+  margin-top:20px ;
+}
+.location-table{
+  margin: 0 auto;
+}
+.back-button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 15px 30px;
+  transition: all .1s linear;
+}
+.back-button:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
 
 p{
   text-align: center;
-<<<<<<< HEAD
-}
-=======
 }
 
 body{
@@ -28,4 +81,3 @@ td{
   font-weight: bold;
 }
 
->>>>>>> 5be8d2f5c4ac7bf1a12f1c6596807059c9343fac

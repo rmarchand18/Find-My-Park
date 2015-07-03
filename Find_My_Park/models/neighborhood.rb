@@ -1,8 +1,6 @@
-require 'httparty'
-
 class Neighborhood
   
-  attr_accessor :location, :venues, :correct_venues, :group, :game_venue
+  attr_accessor :location, :venues, :game_venue
   
   ##!!!NEEDS TO BE FILLED OUT WITH CLIENT ID AND SECRET PROVIDED BY FOURSQUARE
   CLIENT_SECRET = "VYJTGNTSNT1OHG0AURLNS0DVXPS5GKBMSW0QBKFFAFK3NMAU"
@@ -11,7 +9,6 @@ class Neighborhood
   def initialize(location , game_venue)
     @location = location
     @game_venue = game_venue
-    @correct_venues = []
     @venues = {}
   end
 
