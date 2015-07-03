@@ -20,7 +20,7 @@ class Neighborhood
     @venues_info = HTTParty.get(encoded)['response']['groups'][0]["items"]
   end
 
-  def get_venue_ids
+  def get_venue_names
     @venues_info.each do |venue|
       @venues << venue["venue"]["name"]
     end
@@ -28,3 +28,7 @@ class Neighborhood
   end
 
 end
+
+east_village = Neighborhood.new("east village new york ny")
+east_village.search
+east_village.get_venue_names #return an array of all basketball court arrays
