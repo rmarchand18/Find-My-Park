@@ -1,7 +1,7 @@
 require 'bundler'
 Bundler.require
 
-require './models/neighberhood.rb'
+require './models/neighborhood.rb'
 
 class MyApp < Sinatra::Base
 
