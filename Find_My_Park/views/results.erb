@@ -1,22 +1,18 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
   <head>
+     <link type="text/css" rel="stylesheet" href="css/style.css">
     <title> Final Project!</title>
   </head>
   <body>
-    <p> You want to play: <%=@game_type%></p>
-    
+     <div class="choice-wrapper">
+    <p class="choice-text"> Here are the results for <%=@game_type%> in your area:</p>
+    <table align="center">
+      <% @locations.each do |venue, address| %>
+      <tr><td><%= venue %></td>
+      <td><%= address %></td>
+      </tr>
+      <% end %>
+    </table>
   </body>
 </html>
-=======
-<DOCTYPE html>
-  <html>
-    <head>
-      <title> Final Project!</title>
-    </head>
-    <body>
-      <p>You want to play: <%=@game_type%> </p>
-    </body>
-  </html>
->>>>>>> 0dadce0d439995aafa0f5538f0ba6502dea7b0f1
